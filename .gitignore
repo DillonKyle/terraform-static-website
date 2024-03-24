@@ -1,0 +1,15 @@
+backends/bucket/terraform.tfvars
+# Terraform .terraform directory
+**/.terraform/
+
+# Compiled plugin binaries
+**/terraform-provider-*
+
+# Local state files
+**/*.tfstate
+**/*.tfstate.*
+
+# Exclude any .terraformrc or terraform.rc files
+terraform.rc
+
+**/.terraform.lock.hcl
