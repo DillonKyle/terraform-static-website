@@ -26,3 +26,21 @@ You can go through the variables in the backends folder and update them to value
 `terraform apply`
 
 ---
+## Setup Website
+### HTML Files
+---
+Store the html files in the src folder. 
+You will need a onepager index.html and an error.html
+
+### Infrastructure
+---
+in the `infractructure/main.tf` file, change the bucket name to youre desired name.
+
+#### Initialize
+`cd infratructure && terraform init`
+
+#### Apply
+`terraform apply`
+
+---
+Your URL will be output in the console once terraform completes
