@@ -13,3 +13,6 @@ backends/bucket/terraform.tfvars
 terraform.rc
 
 **/.terraform.lock.hcl
+
+src/index.html
+src/error.html
